@@ -1,7 +1,7 @@
 import requests
+import config
 
-
-api='&appid=41277c201c7b5fa059cf3787111966c8'
+api = config.apikey
 base_url='http://api.openweathermap.org/data/2.5/weather?'+api+"&units=metric"
 # tout ca c'est sympa mais autant le sortir du fichier :
 
